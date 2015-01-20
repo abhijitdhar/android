@@ -5,4 +5,4 @@ Added two activity screens:
 2. Edit an item by clicking on it and then clicking save
 
 
-Gif is:
+Gif is: https://github.com/abhijitdhar/android/blob/master/androidtodolist.gif
