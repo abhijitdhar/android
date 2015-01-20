@@ -1,4 +1,4 @@
-# android
+# Simple ToDo List
 
 Added two activity screens:
 1. Show and remove items (by long pressing on an item) from a list view
