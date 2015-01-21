@@ -99,16 +99,10 @@ public class MainActivity extends ActionBarActivity {
     }
 
     private void updateEditedValue(String editedText, int pos) {
-        ArrayList<String> arList = new ArrayList<>(items.subList(0, pos));
-        arList.add(editedText);
-        arList.addAll(items.subList(pos+1, items.size()));
 
-
-        itemsAdapter.clear();
-        items = new ArrayList<>(arList);
-
-        itemsAdapter.addAll(items);
-        //itemsAdapter.notifyDataSetChanged();
+        // Modify the items
+        items.set(pos, editedText);
+        itemsAdapter.notifyDataSetChanged();
         writeItems();
 
     }
